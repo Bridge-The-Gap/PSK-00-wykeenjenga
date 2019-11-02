@@ -5,7 +5,7 @@ class displayNameAndAge():
         print("Hello world")
 
     def displayNameAge(self):
-        print("My name is",self.Name,self.Age,"+ years of age." "Young,right" )
+        print("My name is",self.Name,self.Age,"+ years of age." "Young,right? " )
 class displayMean():
     def dispMean(self):
         list1=[12,4,56,17,8,99]
