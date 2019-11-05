@@ -5,17 +5,25 @@ class displayNameAndAge():
         print("Hello world")
 
     def displayNameAge(self):
-        print("My name is",self.Name,self.Age,"+ years of age." "Young,right? " )
+        print("My name is",self.Name,self.Age,"+ years of age." "Young,right?" )
 class displayMean():
     def dispMean(self):
         list1=[12,4,56,17,8,99]
-        self.sum_of_list=sum(list1)
         print("")
-        self.mean=(self.sum_of_list/6)
+        self.mean=(sum(list1)/6)
         print("The maximum number in this list: [12, 4, 56, 17, 8, 99] is",max(list1))
         print("The mean:[12, 4, 56, 17, 8, 99] is",self.mean,"\n")
+        
     def Alphabet(self):
-        print("A for Apple\n","\nB for Boy","\nC for Cow","\n...","\nZ for Zebra")
+        Alp_dict={
+            "a":"A for Apple",
+            "b":"B for Boy",
+            "c":"C for Cow",
+            ".":"...",
+            "z":"Z for Zebra"}
+        
+        for x in Alp_dict:
+            print(Alp_dict[x])
 
 Obj= displayNameAndAge("Stan",20)
 Obj.displayNameAge()
